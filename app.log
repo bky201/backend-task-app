@@ -95,3 +95,37 @@
 2024-05-01T21:00:02.613+02:00  INFO 18539 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-01T21:00:02.623+02:00  INFO 18539 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-01T21:00:02.629+02:00  INFO 18539 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-01T22:46:40.253+02:00  INFO 24360 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : Starting TaskRepositoryEmbeddedTest using Java 17.0.11 with PID 24360 (started by bky in /media/bky/MyDrive/java-springboot/backend-task-app)
+2024-05-01T22:46:40.264+02:00  INFO 24360 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : No active profile set, falling back to 1 default profile: "default"
+2024-05-01T22:46:41.873+02:00  INFO 24360 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01T22:46:42.155+02:00  INFO 24360 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 245 ms. Found 1 JPA repository interface.
+2024-05-01T22:46:42.350+02:00  INFO 24360 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-05-01T22:46:42.943+02:00  INFO 24360 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3adbcb83-09e9-44eb-8b60-c6cc1defd913;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-05-01T22:46:44.173+02:00  INFO 24360 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01T22:46:44.441+02:00  INFO 24360 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01T22:46:44.467+02:00  WARN 24360 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2024-05-01T22:46:44.623+02:00  INFO 24360 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-01T22:46:45.586+02:00  INFO 24360 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01T22:46:45.788+02:00  WARN 24360 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01T22:46:48.627+02:00  INFO 24360 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01T22:46:48.846+02:00  INFO 24360 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01T22:46:50.765+02:00  INFO 24360 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-01T22:46:52.202+02:00  INFO 24360 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : Started TaskRepositoryEmbeddedTest in 13.479 seconds (process running for 16.867)
+2024-05-01T22:46:54.806+02:00  INFO 24360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01T22:50:20.159+02:00  INFO 24562 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : Starting TaskRepositoryEmbeddedTest using Java 17.0.11 with PID 24562 (started by bky in /media/bky/MyDrive/java-springboot/backend-task-app)
+2024-05-01T22:50:20.166+02:00  INFO 24562 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : No active profile set, falling back to 1 default profile: "default"
+2024-05-01T22:50:24.000+02:00  INFO 24562 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01T22:50:24.574+02:00  INFO 24562 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 466 ms. Found 1 JPA repository interface.
+2024-05-01T22:50:24.929+02:00  INFO 24562 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-05-01T22:50:26.230+02:00  INFO 24562 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:b4739bd0-6f26-45de-a08e-e028a33322ae;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-05-01T22:50:28.593+02:00  INFO 24562 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01T22:50:28.992+02:00  INFO 24562 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01T22:50:29.029+02:00  WARN 24562 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2024-05-01T22:50:29.232+02:00  INFO 24562 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-01T22:50:30.670+02:00  INFO 24562 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01T22:50:30.967+02:00  WARN 24562 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01T22:50:35.234+02:00  INFO 24562 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01T22:50:35.532+02:00  INFO 24562 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01T22:50:38.831+02:00  INFO 24562 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-01T22:50:41.573+02:00  INFO 24562 --- [Test worker] c.e.b.r.TaskRepositoryEmbeddedTest       : Started TaskRepositoryEmbeddedTest in 24.356 seconds (process running for 30.71)
+2024-05-01T22:50:46.192+02:00  INFO 24562 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
